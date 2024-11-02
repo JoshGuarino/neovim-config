@@ -2,7 +2,7 @@
 require("nvchad.configs.lspconfig").defaults()
 
 local lspconfig = require "lspconfig"
-local servers = { "html", "cssls", "pyright", "gopls" }
+local servers = { "html", "cssls", "pyright", "gopls", }
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config
@@ -18,7 +18,7 @@ lspconfig.gopls.setup {
   on_attach = nvlsp.on_attach,
   on_init = nvlsp.on_init,
   capabilities = nvlsp.capabilities,
-  cmd = {"gopls"},
+  cmd = { "gopls" },
   filetypes = { "go", "gomod", "gowork", "gotmpl" },
   settings = {
     gopls = {
@@ -26,9 +26,9 @@ lspconfig.gopls.setup {
       usePlaceholders = true,
       analyses = {
         unusedparams = true,
-      }
-    }
-  }
+      },
+    },
+  },
 }
 
 -- configuring single server, example: typescript
