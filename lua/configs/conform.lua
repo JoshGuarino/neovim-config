@@ -2,10 +2,9 @@ local options = {
   formatters_by_ft = {
     lua = { "stylua" },
     go = { "gopls" },
-  --   css = { "prettier" },
-  --   html = { "prettier" },
+    css = { "prettier" },
+    html = { "prettier" },
   },
-
 
   format_on_save = {
     -- These options will be passed to conform.format()
