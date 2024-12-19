@@ -24,6 +24,8 @@ return {
         "css",
         "go",
         "python",
+        "typescript",
+        "javascript",
       },
     },
   },
