@@ -18,4 +18,16 @@ M.nvdash = {
   load_on_startup = true,
 }
 
+M.term = {
+  sizes = { sp = 0.3, vsp = 0.4, ["bo sp"] = 0.3, ["bo vsp"] = 0.4 },
+  float = {
+    relative = "editor",
+    row = 0.15,
+    col = 0.15,
+    width = 0.7,
+    height = 0.7,
+    border = "single",
+  },
+}
+
 return M
