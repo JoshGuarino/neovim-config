@@ -35,3 +35,8 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+-- not sure if this is needed for deno or not
+vim.g.markdown_fenced_languages = {
+  "ts=typescript",
+}
