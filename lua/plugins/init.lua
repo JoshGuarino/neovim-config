@@ -25,6 +25,7 @@ return {
         "python",
         "typescript",
         "javascript",
+        "ruby",
       },
     },
   },
