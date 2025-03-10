@@ -30,4 +30,8 @@ M.term = {
   },
 }
 
+M.ui = {
+  hl_override = {},
+}
+
 return M
