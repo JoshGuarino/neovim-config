@@ -31,7 +31,11 @@ M.term = {
 }
 
 M.ui = {
-  hl_override = {},
+  statusline = {
+    theme = "default",
+    separator_style = "default",
+    order = { "mode", "file", "git", "%=", "lsp_msg", "%=", "diagnostics", "lsp", "cwd", "cursor" },
+  },
 }
 
 return M
