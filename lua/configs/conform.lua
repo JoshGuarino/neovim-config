@@ -2,11 +2,12 @@ local options = {
   formatters_by_ft = {
     lua = { "stylua" },
     go = { "gopls" },
-    css = { "prettier" },
-    html = { "prettier" },
-    typescript = { "prettier" },
-    javascript = { "prettier" },
-    json = { "prettier" },
+    css = { "prettierd" },
+    html = { "prettierd" },
+    typescript = { "prettierd" },
+    javascript = { "prettierd" },
+    json = { "prettierd" },
+    markdown = { "prettierd" },
   },
 
   format_on_save = {
