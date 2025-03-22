@@ -4,6 +4,9 @@ local options = {
     go = { "gopls" },
     css = { "prettier" },
     html = { "prettier" },
+    typescript = { "prettier" },
+    javascript = { "prettier" },
+    json = { "prettier" },
   },
 
   format_on_save = {
