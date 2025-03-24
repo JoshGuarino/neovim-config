@@ -36,10 +36,6 @@ vim.schedule(function()
   require "mappings"
 end)
 
-vim.g.markdown_fenced_languages = {
-  "ts=typescript",
-}
-
 -- Set tab width to 4
 -- vim.opt.tabstop = 4
 -- vim.opt.shiftwidth = 4

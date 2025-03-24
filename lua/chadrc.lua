@@ -34,7 +34,7 @@ M.ui = {
   statusline = {
     theme = "default",
     separator_style = "default",
-    order = { "mode", "file", "git", "%=", "lsp_msg", "%=", "diagnostics", "cwd", "cursor" },
+    order = { "mode", "file", "git", "%=", "lsp_msg", "%=", "diagnostics", "lsp", "cwd", "cursor" },
   },
 }
 
