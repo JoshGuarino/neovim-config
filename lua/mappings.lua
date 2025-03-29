@@ -21,3 +21,10 @@ end, { desc = "Copilot Next", noremap = true, silent = true })
 map("i", "<M-x>", function()
   vim.fn.feedkeys(vim.fn["copilot#Clear"](), "")
 end, { desc = "Copilot Clear", noremap = true, silent = true })
+
+-- Toggle background transparency
+map("n", "<leader>tt", ":lua require('base46').toggle_transparency()<CR>", {
+  noremap = true,
+  silent = true,
+  desc = "Toggle Background Transparency",
+})
