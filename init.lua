@@ -35,9 +35,3 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
-
--- Set tab width to 4
--- vim.opt.tabstop = 4
--- vim.opt.shiftwidth = 4
--- vim.opt.expandtab = true
--- vim.opt.softtabstop = 4

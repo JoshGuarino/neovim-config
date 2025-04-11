@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "doomchad",
+  theme = "gruvchad",
 
   -- hl_override = {
   --   Comment = { italic = true },
@@ -34,7 +34,7 @@ M.ui = {
   statusline = {
     theme = "default",
     separator_style = "default",
-    order = { "mode", "file", "git", "%=", "lsp_msg", "%=", "diagnostics", "cwd", "cursor" },
+    order = { "mode", "file", "git", "%=", "lsp_msg", "%=", "diagnostics", "lsp", "cwd", "cursor" },
   },
 }
 

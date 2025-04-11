@@ -1,14 +1,12 @@
 return {
   {
     "supermaven-inc/supermaven-nvim",
-    cmd = {
-      "SupermavenUseFree",
-    },
+    lazy = false,
     opts = {
       keymaps = {
         accept_suggestion = "<C-l>",
-        clear_suggestion = "<C-]>",
-        accept_word = "<M-]>",
+        clear_suggestion = "<C-x>",
+        accept_word = "<C-]>",
       },
     },
   },

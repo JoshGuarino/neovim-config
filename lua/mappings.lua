@@ -9,22 +9,14 @@ map("i", "jk", "<ESC>")
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 
--- copilot mappings
-map("i", "<C-l>", function()
-  vim.fn.feedkeys(vim.fn["copilot#Accept"](), "")
-end, { desc = "Copilot Accept", noremap = true, silent = true })
-
-map("i", "<M-]>", function()
-  vim.fn.feedkeys(vim.fn["copilot#Next"](), "")
-end, { desc = "Copilot Next", noremap = true, silent = true })
-
-map("i", "<M-x>", function()
-  vim.fn.feedkeys(vim.fn["copilot#Clear"](), "")
-end, { desc = "Copilot Clear", noremap = true, silent = true })
-
 -- Toggle background transparency
 map("n", "<leader>tt", ":lua require('base46').toggle_transparency()<CR>", {
   noremap = true,
   silent = true,
   desc = "Toggle Background Transparency",
 })
+
+-- supermaven mappings
+map("i", "<C-l>", "", { desc = "Supermaven Accept" })
+map("i", "<C-x>", "", { desc = "Supermaven Clear" })
+map("i", "<C-]>", "", { desc = "Supermaven Accept Word" })
